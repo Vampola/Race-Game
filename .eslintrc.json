@@ -1,0 +1,25 @@
+{
+  "extends": "airbnb-base",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+
+  "rules": {
+    "semi": 2,
+    "linebreak-style": 0,
+    "global-require": 0,
+    "eslint linebreak-style": [0, "error", "windows"],
+    "beforeStatementContinuationChars": "any",
+    "arrow-body-style": ["error", "always"]
+  }
+}
